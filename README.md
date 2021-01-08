@@ -1,13 +1,19 @@
 # MatrixCalculator
-MatrixCalculator矩阵计算器——硬件描述语言课程设计
+MatrixCalculator 矩阵计算器——硬件描述语言课程设计
+
+- 项目基于HDLE-2硬件描述语言综合实验平台。
+
+- matrix_calculator文件夹为源文件，引脚配置在最后。
+
+  
 
 
 ## 设计思路
 
 采用模块化设计的思想，将工程细分为多个子模块，降低各部分之间的耦合，便于往后的调试与修改。下图为模块设计方案。
 
-​                              
- 
+​    <img src="image/设计电路图.png" alt="设计电路图" style="zoom: 15%;" />               
+
 
 ### 中心逻辑控制模块
 
@@ -56,6 +62,8 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 
 **按键功能说明：**
 
+![按键说明](image/按键说明.png)
+
 **端口说明：**
 
 | **端口名** | **方向** | **数据类型**                  | **说明** |
@@ -65,15 +73,9 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 | key_col    | IN       | STD_LOGIC_VECTOR(3  DOWNTO 0) | 键盘列选 |
 | key_value  | OUT      | STD_LOGIC_VECTOR(4  DOWNTO 0) | 返回键码 |
 
- 
-
-
-
 **键盘扫描：**
 
   设置键盘扫描时钟，电路在键盘扫描时钟的激励下，不断扫描每一行的按键值并保存，当一轮扫描完成后，通过判断保存下来的四行按键值即可得出哪个键被按下，并返回相应的键码。
-
- 
 
 **去除抖动：**
 
@@ -87,8 +89,6 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 
 接受显示的矩阵数字以及光标位置，生成显示矩阵，进行刷新显示。
 
- 
-
 **端口说明：**
 
 | **端口名**       | **方向** | **数据类型**                   | **说明** |
@@ -99,15 +99,11 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 | display_numbers  | IN       | STD_LOGIC_VECTOR(0  TO 15)     | 显示码   |
 | cursor           | IN       | INTEGER                        | 光标位置 |
 
- 
-
 **具体实现：**
 
 将0-9的字模存在常量中，通过中心控制电路给予的显示信号，动态调整键盘显示内容。
 
 其中第7行和第15行为光标显示的位置。通过cursor调整光标的显示位置，进行闪烁。确定好矩阵显示内容后，进行刷新显示显示矩阵中的内容。
-
-**显示矩阵的构造：**
 
 
 
@@ -129,3 +125,39 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 **具体实现：**
 
 将0-9的段码存在常量中，通过中心控制电路给予的显示信号，调整显示序列，进行刷新显示。
+
+
+
+## 演示效果
+
+开机：
+
+<img src="image/1开机.png" alt="1开机" style="zoom:80%;" />
+
+移动光标进行输入：
+
+<img src="image/2输入.png" alt="2输入" style="zoom:80%;" />
+
+<img src="image/3输入完成.png" alt="3输入完成" style="zoom:80%;" />
+
+转置运算：
+
+<img src="image/4转置运算.png" alt="4转置运算" style="zoom:80%;" />
+
+
+
+行列式运算：
+
+<img src="image/5行列式.png" alt="5行列式" style="zoom:80%;" />
+
+模方运算：
+
+<img src="image/6模方.png" alt="6模方" style="zoom:80%;" />
+
+
+
+
+
+## 引脚配置
+
+![引脚配置](image/引脚配置.png)
