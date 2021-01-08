@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Dec 23 17:47:29 2020
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : matrix_calculator
+Top-level Entity Name : matrix_calculator
+Family : Cyclone III
+Total logic elements : 11,164
+    Total combinational functions : 11,143
+    Dedicated logic registers : 181
+Total registers : 181
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 14
+Total PLLs : 0

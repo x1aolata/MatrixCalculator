@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'led8_controller:controller_led8|counter[10]'
+Slack : -243.467
+TNS   : -858.472
+
+Type  : Slow 1200mV 85C Model Setup 'counter[5]'
+Slack : -18.090
+TNS   : -885.925
+
+Type  : Slow 1200mV 85C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -6.615
+TNS   : -117.192
+
+Type  : Slow 1200mV 85C Model Setup 'key_controller:controller_key|counter[5]'
+Slack : -6.555
+TNS   : -286.654
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -2.349
+TNS   : -38.421
+
+Type  : Slow 1200mV 85C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -1.104
+TNS   : -5.119
+
+Type  : Slow 1200mV 85C Model Hold 'counter[5]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'key_controller:controller_key|counter[5]'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'led8_controller:controller_led8|counter[10]'
+Slack : 0.685
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'counter[5]'
+Slack : -2.846
+TNS   : -264.481
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'key_controller:controller_key|counter[5]'
+Slack : -1.487
+TNS   : -84.759
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -1.487
+TNS   : -38.662
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'led8_controller:controller_led8|counter[10]'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Setup 'led8_controller:controller_led8|counter[10]'
+Slack : -222.600
+TNS   : -785.076
+
+Type  : Slow 1200mV 0C Model Setup 'counter[5]'
+Slack : -16.535
+TNS   : -822.542
+
+Type  : Slow 1200mV 0C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -6.122
+TNS   : -107.571
+
+Type  : Slow 1200mV 0C Model Setup 'key_controller:controller_key|counter[5]'
+Slack : -5.983
+TNS   : -262.870
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -2.123
+TNS   : -32.351
+
+Type  : Slow 1200mV 0C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.962
+TNS   : -4.357
+
+Type  : Slow 1200mV 0C Model Hold 'counter[5]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'key_controller:controller_key|counter[5]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : 0.418
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'led8_controller:controller_led8|counter[10]'
+Slack : 0.637
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -38.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'counter[5]'
+Slack : -2.846
+TNS   : -268.314
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'key_controller:controller_key|counter[5]'
+Slack : -1.487
+TNS   : -85.364
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -1.487
+TNS   : -39.034
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'led8_controller:controller_led8|counter[10]'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Fast 1200mV 0C Model Setup 'led8_controller:controller_led8|counter[10]'
+Slack : -106.535
+TNS   : -371.598
+
+Type  : Fast 1200mV 0C Model Setup 'counter[5]'
+Slack : -7.373
+TNS   : -321.580
+
+Type  : Fast 1200mV 0C Model Setup 'key_controller:controller_key|counter[5]'
+Slack : -2.658
+TNS   : -109.192
+
+Type  : Fast 1200mV 0C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -2.212
+TNS   : -35.431
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -0.523
+TNS   : -4.311
+
+Type  : Fast 1200mV 0C Model Setup 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.570
+TNS   : -3.186
+
+Type  : Fast 1200mV 0C Model Hold 'key_controller:controller_key|counter[5]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'counter[5]'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : 0.194
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'led8_controller:controller_led8|counter[10]'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -34.044
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'counter[5]'
+Slack : -1.000
+TNS   : -123.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'key_controller:controller_key|counter[5]'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[10]'
+Slack : -1.000
+TNS   : -26.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'led8_controller:controller_led8|counter[10]'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ledmatrix_controller:controller_ledmatrix|counter[20]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------
