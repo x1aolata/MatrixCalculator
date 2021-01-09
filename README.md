@@ -1,9 +1,13 @@
 # MatrixCalculator
 MatrixCalculator 矩阵计算器——硬件描述语言课程设计
 
-- 项目基于HDLE-2硬件描述语言综合实验平台。
 
-- matrix_calculator文件夹为源文件，引脚配置在最后。
+
+- 项目基于HDLE-2硬件描述语言综合实验平台
+
+- 使用VHDL语言编写
+
+- matrix_calculator文件夹为工程源文件，引脚配置在最后
 
   
 
@@ -12,10 +16,10 @@ MatrixCalculator 矩阵计算器——硬件描述语言课程设计
 
 采用模块化设计的思想，将工程细分为多个子模块，降低各部分之间的耦合，便于往后的调试与修改。下图为模块设计方案。
 
-​    <img src="image/设计电路图.png" alt="设计电路图" style="zoom: 15%;" />               
+​    <img src="image/设计电路图.png" alt="设计电路图" style="zoom: 50%;" />               
 
 
-### 中心逻辑控制模块
+### 1、中心逻辑控制模块
 
 **功能描述：**
 
@@ -54,7 +58,7 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 
  
 
-### 键盘控制模块
+### 2、键盘控制模块
 
 **功能描述：**
 
@@ -83,7 +87,7 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 
  
 
-### LED点阵显示控制模块
+### 3、LED点阵显示控制模块
 
 **功能描述：**
 
@@ -107,7 +111,7 @@ display_ledmatrix_numbers和display_led8_numbers是自定义类型的数组，�
 
 
 
-### LED数码管显示控制模块
+### 4、LED数码管显示控制模块
 
 **功能描述：**
 
